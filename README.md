@@ -103,7 +103,7 @@ Key observations:
 
 ### 🔹 Correlation Heatmap
 
-![Correlation](correlation.png)
+![Correlation](correlation_v2.png)
 
 *Correlation analysis highlighting relationships between features and churn.*
 
