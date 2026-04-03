@@ -91,6 +91,40 @@ Key observations:
 
 ---
 
+## 📊 Sample Outputs
+
+### 🔹 Exploratory Data Analysis (EDA)
+
+![EDA](eda.png)
+
+*EDA showing key patterns such as tenure, support calls, and payment delay influencing churn.*
+
+---
+
+### 🔹 Correlation Heatmap
+
+![Correlation](correlation.png)
+
+*Correlation analysis highlighting relationships between features and churn.*
+
+---
+
+### 🔹 ROC Curve
+
+![ROC](roc.png)
+
+*ROC curve demonstrating model performance and classification capability.*
+
+---
+
+### 🔹 Feature Importance
+
+![Feature Importance](importance.png)
+
+*Top features influencing churn prediction based on Random Forest model.*
+
+---
+
 ## 📊 Key Insights
 
 * Customers with **frequent support calls** are highly likely to churn
@@ -146,3 +180,13 @@ Random Forest achieved superior performance by capturing complex patterns, while
 
 ---
 
+## ▶️ How to Run
+
+1. Clone the repository
+2. Install dependencies
+3. Open the notebook
+4. Run all cells
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
+```
