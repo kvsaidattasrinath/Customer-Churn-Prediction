@@ -1,13 +1,13 @@
-# 📊 Customer Churn Prediction
+#  Customer Churn Prediction
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Customer churn is a major challenge for businesses as it directly impacts revenue and growth.
 The goal of this project is to build a machine learning model that predicts whether a customer will churn based on their behavior and usage patterns.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset contains customer information such as:
 
@@ -27,9 +27,9 @@ Target variable:
 
 ---
 
-## ⚙️ Approach
+##  Approach
 
-### 🔹 Data Preprocessing
+###  Data Preprocessing
 
 * Removed irrelevant columns (`CustomerID`, `Last Interaction`)
 * Handled missing values
@@ -38,7 +38,7 @@ Target variable:
 
 ---
 
-### 🔹 Exploratory Data Analysis (EDA)
+###  Exploratory Data Analysis (EDA)
 
 Performed visualization to understand customer behavior:
 
@@ -51,7 +51,7 @@ Key observations:
 
 ---
 
-### 🔹 Correlation Analysis
+###  Correlation Analysis
 
 * **Support Calls** showed the strongest positive correlation with churn
 * **Payment Delay** and **Monthly Contracts** also contributed to higher churn
@@ -59,7 +59,7 @@ Key observations:
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 
 ### 1. Logistic Regression
 
@@ -75,7 +75,7 @@ Key observations:
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 ### Logistic Regression
 
@@ -91,9 +91,9 @@ Key observations:
 
 ---
 
-## 📊 Sample Outputs
+##  Sample Outputs
 
-### 🔹 Exploratory Data Analysis (EDA)
+###  Exploratory Data Analysis (EDA)
 
 ![EDA](eda.png)
 
@@ -101,7 +101,7 @@ Key observations:
 
 ---
 
-### 🔹 Correlation Heatmap
+###  Correlation Heatmap
 
 ![Correlation](correlation_v2.png)
 
@@ -109,7 +109,7 @@ Key observations:
 
 ---
 
-### 🔹 ROC Curve
+###  ROC Curve
 
 ![ROC](roc.png)
 
@@ -117,7 +117,7 @@ Key observations:
 
 ---
 
-### 🔹 Feature Importance
+###  Feature Importance
 
 ![Feature Importance](importance.png)
 
@@ -125,7 +125,7 @@ Key observations:
 
 ---
 
-## 📊 Key Insights
+##  Key Insights
 
 * Customers with **frequent support calls** are highly likely to churn
 * **Low tenure customers** are at higher risk
@@ -135,7 +135,7 @@ Key observations:
 
 ---
 
-## 💡 Business Impact
+## Business Impact
 
 This model helps businesses:
 
@@ -143,13 +143,13 @@ This model helps businesses:
 * Take proactive retention actions
 * Improve customer satisfaction
 
-📌 Estimated impact:
+ Estimated impact:
 
 * Can help reduce churn by **15–20%** through targeted strategies
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Hyperparameter tuning for better generalization
 * Deploy model using Streamlit / Flask
@@ -158,7 +158,7 @@ This model helps businesses:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python
 * Pandas, NumPy
@@ -167,20 +167,20 @@ This model helps businesses:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 A machine learning-based churn prediction system was developed using Logistic Regression and Random Forest.
 Random Forest achieved superior performance by capturing complex patterns, while EDA and correlation analysis provided actionable business insights.
 
 ---
 
-## 📬 Author
+##  Author
 
 **Sai Datta Srinath**
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone the repository
 2. Install dependencies
